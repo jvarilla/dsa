@@ -1,0 +1,11 @@
+{
+  "name": "udemydsa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "array1.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
