@@ -6,7 +6,7 @@
 //For example: fibonacciRecursive(6) should return 8
 
 
-function fibonacciIterative(n){
+function fibonacciIterative(n){//O(n) -linear time
   let arr = [0, 1];
   for (let i = 2; i < n + 1; i++){
     arr.push(arr[i - 2] + arr[i -1]);
@@ -15,7 +15,9 @@ function fibonacciIterative(n){
 }
 fibonacciIterative(3);
 
-function fibonacciRecursive(n) {
+
+//Not an ideal solution
+function fibonacciRecursive(n) {//O(2^n) exponential time
   if (n < 2){
     return n;
   }
